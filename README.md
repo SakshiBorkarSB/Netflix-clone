@@ -40,7 +40,7 @@ Netflix-Clone/
 ## Screenshot
 
 ```
-[Project Screenshot](screenshot.png)
+![Netflix Clone Screenshot](screenshot.png)
 ```
 
 ---
