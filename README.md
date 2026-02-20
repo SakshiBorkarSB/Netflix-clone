@@ -4,7 +4,7 @@ This project focuses on recreating the layout and design of the official Netflix
 
 ---
 
-## Features
+## Features 
 
 * Clean Netflix-inspired UI
 * Responsive layout 
