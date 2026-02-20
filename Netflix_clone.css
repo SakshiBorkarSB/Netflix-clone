@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgb(0 0 79 / 30%), rgb(0 0 0.8 / 100%)), url(Assets/Images/background_img.jpg);
+    /* height: 70vh; */
+    height: 700px;
+    width: 100vw;
+    /* width: 110vw; */
+    background-position: center center;
+    /* object-fit: cover; */
+    /* background-size: cover; */
+    background-size: max(1200px, 130vw);
+    background-repeat: no-repeat;
+    position: relative;
+    /* opacity: 0.6; */
+}
+
+.main .box {
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    background-color: rgb(0 0 79 / 40%);
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    max-width: 64vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.sign_in {
+    background-color: rgb(229, 9, 20);
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: rgb(23, 23, 23, 0.5);
+    font-size: medium;
+    color: white;
+    border: -0.5px solid white;
+    padding: 0.40rem 0.8rem;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+}
+
+select option {
+    color: black;
+}
+
+.text {
+    color: white;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 0px 23px; */
+    position: relative;
+    gap: 14px;
+}
+
+.text> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text> :nth-child(2) {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text> :nth-child(3) {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tbox {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.start {
+    color: white;
+    font-weight: 400;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    font-size: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 25px;
+    margin: 6px;
+}
+
+input {
+    background-color: rgb(23, 23, 23, 0.5);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 17px 150px 17px 14px;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 6px;
+}
+
+.separation {
+    height: 8px;
+    width: 100vw;
+    background-color: rgb(32, 32, 32);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    padding: 72px 0px;
+    color: white;
+    min-height: auto;
+    /* margin: 20px 10%; */
+    margin: auto;
+}
+
+.img1 {
+    position: relative;
+}
+
+.img1 img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+
+.img1 video {
+    /* height: 228px; */
+    width: 369px;
+    position: absolute;
+    top: 20%;
+    right: 14%;
+}
+
+.one {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.one span:nth-child(1) {
+    padding: 0px 0px 20px 0px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.one span:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.img3 {
+    position: relative;
+}
+
+.img3 img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+
+.img3 video {
+    height: 260px;
+    width: 313px;
+    position: absolute;
+    top: -3%;
+    right: 19%;
+}
+
+.faq {
+    padding: 60px 0px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq h2 {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.faqbox {
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    padding: 24px;
+    font-size: 24px;
+    max-width: 70vw;
+    margin: 10px auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    transform: all;
+    background-color: rgb(67, 66, 66);
+}
+
+.line {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+footer {
+    /* padding: 0px 48px; */
+    /* margin: 72px 200px; */
+    margin: auto;
+    max-width: 75%;
+}
+
+.questions {
+    font-size: 16px;
+    color: rgb(169, 168, 168);
+    margin: 70px 0px 0px 0px;
+}
+
+.net {
+    font-size: 16px;
+    color: rgb(169, 168, 168);
+    margin: 12px 0px;
+}
+
+.bottom {
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    gap: 20%;
+}
+
+.bottom ul li a {
+    color: rgb(169, 168, 168);
+    list-style: none;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.bottom ul {
+    margin: 16px 0px 16px 0px;
+}
+
+.bottom li {
+    margin: 16px 0px 0px 0px;
+}
+
+.btn1 {
+    background-color: rgb(23, 23, 23, 0.5);
+    font-size: medium;
+    color: white;
+    border: -0.5px solid white;
+    padding: 0.40rem 0.8rem;
+    border-radius: 5px;
+    margin: 10px auto;
+    position: relative;
+}
+
