@@ -37,14 +37,6 @@ Netflix-Clone/
 
 ---
 
-## Screenshot
-
-```
-![Netflix Clone Screenshot](screenshot.png)
-```
-
----
-
 ## Purpose of the Project
 
 This project was created to practice:
@@ -63,9 +55,3 @@ This project was created to practice:
 * Add login/sign-up modal
 * Deploy with custom domain
 * Add animations
-
----
-
-## Author
-
-Sakshi Borkar
