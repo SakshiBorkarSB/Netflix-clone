@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="./img_files/Netflix_clone.css">
+    <link rel="stylesheet" href="./img_files/Phone_Netflix_clone.css">
+    <link rel="icon" href="file:///C:/Web%20Development/Projects/Netflix%20Clone/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <div>
+                <img width="150px" src="./img_files/netflix_logo.svg" alt="">
+            </div>
+            <div class="buttons">
+
+                <label for="language"></label>
+                <select class="btn" name="language" id="lang">
+                    <option value="English" selected=""> English</option>
+                    <option value="हिन्दी">हिन्दी</option>
+                </select>
+
+                <button class="sign_in"><a href="file:///C:/">Sign In</a></button>
+
+        </div></nav>
+
+        <div class="text">
+            <span>Unlimited movies, TV shows and more</span>
+            <span>Watch anywhere. Cancel anytime.</span>
+            <span>Ready to watch? Enter your email to create or restart your membership.</span>
+
+            <div class="tbox">
+                <input type="textt" placeholder="Email Address">
+                <button class="start"><a href="file:///C:/">Get Started &gt;</a></button>
+            </div>
+        </div>
+        <div class="separation"></div>
+    </div>
+
+    <section class="first">
+        <div class="one">
+
+            <span>Enjoy on your TV</span>
+            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+
+        </div>
+
+        <div class=" imge img1">
+            <img src="./img_files/tv&amp;remote.png" alt="">
+            <video src="Assets/Videos/Video_1.m4v" autoplay="" loop="" muted=""></video>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+
+    <section class="first">
+        <div class="imge img2">
+            <img width="500px" src="./img_files/phone.jpg" alt="">
+        </div>
+        <div class="one">
+            <span>Download your shows to watch offline</span>
+            <span>Save your favourites easily and always have something to watch.</span>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+
+    <section class="first">
+        <div class="one">
+
+            <span>Watch everywhere</span>
+            <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
+
+        </div>
+
+        <div class="imge img3">
+            <img src="./img_files/screen.png" alt="">
+            <video src="Assets/Videos/Video_2.m4v" autoplay="" loop="" muted=""></video>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+
+    <section class="first">
+        <div class="imge img2">
+            <img width="500px" src="./img_files/children.png" alt="">
+        </div>
+        <div class="one">
+            <span>Create profiles for kids</span>
+            <span>Send children on adventures with their favourite characters in a space made just for them—free with
+                your membership.</span>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faqbox">
+            <span>What is NetFlix?</span>
+            <img src="./img_files/arrow.svg" alt="">
+
+        </div>
+
+        <div class="faqbox">
+            <span>How much does Netflix cost?</span>
+            <img src="./img_files/arrow.svg" alt="">
+
+        </div>
+
+        <div class="faqbox">
+            <span>Where can I watch?</span>
+            <img src="./img_files/arrow.svg" alt="">
+
+        </div>
+
+        <div class="faqbox">
+            <span>How do I cancel?</span>
+            <img src="./img_files/arrow.svg" alt="">
+
+        </div>
+
+        <div class="faqbox">
+            <span>What can I watch on Netflix?</span>
+            <img src="./img_files/arrow.svg" alt="">
+
+        </div>
+
+        <div class="faqbox">
+            <span>Is Netflix good for kids?</span>
+            <img src="./img_files/arrow.svg" alt="">
+
+        </div>
+
+        <div class="line">
+            Ready to watch? Enter your email to create or restart your membership.
+        </div>
+
+        <div class="tbox">
+            <input type="textt" placeholder="Email Address">
+            <button class="start"><a href="file:///C:/">Get Started &gt;</a></button>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+
+    <footer>
+
+        <div class="questions">
+            Questions? Call <u>000-800-919-1694</u>
+        </div>
+
+        <div class="bottom">
+            <ul>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">FAQ</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Investor Relations</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Privacy</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Speed Test</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Help Centre</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Jobs</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Cookie Preferences</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Legal Notices</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Account</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Ways to Watch</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Corporate Information</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Only on Netflix</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Media Centre</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Terms of Use</a></li>
+                <li><a href="file:///C:/Web%20Development/Projects/Netflix%20Clone/Netflix_clone.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+
+        <div>
+            <label for="language"></label>
+            <select class="btn1" name="language" id="lang">
+                <option value="English" selected=""> English</option>
+                <option value="हिन्दी">हिन्दी</option>
+            </select>
+        </div>
+
+        <div class="net">Netflix India</div>
+
+    </footer>
+
+
+
+</body></html>
