@@ -1,0 +1,166 @@
+@media screen and (max-width: 1000px) {
+    .first {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .tbox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .one span:nth-child(1) {
+        font-size: 32px;
+    }
+
+    .one span:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .one {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .imge {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img1 img {
+        width: 370px;
+    }
+
+    .img1 video {
+        width: 280px;
+        right: 25%;
+    }
+
+    .img3 video {
+        width: 231px;
+        right: 30%;
+        top: -42px;
+    }
+
+    .img3 img {
+        width: 370px;
+    }
+
+    .img2 img {
+        width: 350px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    .main {
+        height: 500px;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    input {
+        padding: 10px 15px 17px 14px
+    }
+
+    .start {
+        padding: 8px 15px;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+    .first {
+        /* max-width: 100vw; */
+        min-height: auto;
+        margin: 10px auto;
+    }
+
+    .bottom ul li {
+        text-align: center;
+    }
+
+    .text {
+        gap: 5px;
+        height: 75%;
+    }
+
+    .text> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .text> :nth-child(2) {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .text> :nth-child(3) {
+        font-size: 15px;
+    }
+
+    .img1 img {
+        width: 220px;
+    }
+
+    .img1 video {
+        width: 163px;
+        right: 15%;
+    }
+
+    .img3 video {
+    width: 142px;
+    right: 18%;
+    top: -76px;
+    }
+
+    .img3 img {
+        width: 228px;
+    }
+
+    .img2 img {
+        width: 225px;
+    }
+
+    .tbox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .one span:nth-child(1) {
+        font-size: 24px;
+    }
+
+    .one span:nth-child(2) {
+        font-size: 10px;
+    }
+
+    .faq h2 {
+        font-size: 32px;
+        font-weight: 900;
+        padding: 10px;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+    .sign_in{
+        margin: 3px;
+    }
+
+    .btn{
+        margin: 3px;
+    }
+}
