@@ -39,10 +39,8 @@ Netflix-Clone/
 
 ## Screenshot
 
-(Add a screenshot of your project here)
-
 ```
-![Project Screenshot](screenshot.png)
+[Project Screenshot](screenshot.png)
 ```
 
 ---
